@@ -1,0 +1,67 @@
+$Primary: #C5E1EB;
+$Dark: #2F5B6B;
+$Secondary: #81D1EE;
+$Grey: #9AB0B8;
+$Darkgrey: #5A676B;
+$Background: #DCE8EB;
+
+
+.timeliner {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    color: black;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lighten($color: $Secondary, $amount: 23);
+
+}
+
+.ag-timeline-card_point {
+    border: 3px solid $Primary;
+}
+
+.js-ag-active .ag-timeline-card_point {
+    color: white;
+    background-color: $Dark;
+}
+
+.ag-timeline-card_desc {
+    color: $Darkgrey;
+}
+.ag-timeline-card_item {
+    border-top-right-radius: 0px !important;
+
+    border-top-left-radius: 0px !important;
+
+    border-bottom-left-radius: 60px !important;
+    border-bottom-right-radius: 60px !important;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+    background-color: lighten($color: $Secondary, $amount: 15);
+}
+.ag-timeline-card_item.left {
+    
+    border-top-right-radius: 0px !important;
+
+    border-top-left-radius: 0px !important;
+
+    border-bottom-left-radius: 60px !important;
+    border-bottom-right-radius: 60px !important;
+    
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: lighten($color: $Secondary, $amount: 15);
+}
+.projecter {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    color: black;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lighten($color: $Secondary, $amount: 80);
+}
+

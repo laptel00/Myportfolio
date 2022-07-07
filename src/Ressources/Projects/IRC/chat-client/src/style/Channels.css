@@ -1,0 +1,12 @@
+#channelList ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: 1fr 1fr;
+}
+
+#buttonChan {
+    max-width: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
